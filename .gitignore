@@ -9,12 +9,13 @@ env/
 .ipynb_checkpoints/
 
 # Private data (canine images, spreadsheets) and downloaded LungHist700
-data/
+data/**/*.jpg
 
 # Experiment outputs and model weights
 *.pt
 *.pth
 *.ckpt
+*.xlsx
 
 # OS / IDE
 .DS_Store
